@@ -34,9 +34,18 @@ class Geography: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let question1 = Question(question: "How much is that doggy in the window?", answers: ["$1", "$5", "$10", "$40"], answer: 3)
-        let question2 = Question(question: "What is the best soda?", answers: ["Mist TWST", "Sprite", "7UP", "Root Beer"], answer: 0)
-        questions = [question1, question2]
+        let question1 = Question(question: "The London Eye is found in what country?", answers: ["France", "Germany", "Switzerland", "England"], answer: 3)
+        let question2 = Question(question: "Which of these countries touches the Euphrates River?", answers: ["Morocco", "Iraq", "Algeria", "Sudan"], answer: 1)
+        let question3 = Question(question: "Which of these countries borders Slovakia", answers: ["Poland", "Albania", "Croatia", "Bulgaria"], answer: 0)
+        let question4 = Question(question: "Which of these countries is NOT a Baltic country?", answers: ["Estonia", "Latvia", "Belarus", "Lithuania"], answer: 2)
+        let question5 = Question(question: "", answers: ["", "", "", ""], answer: 0)
+        let question6 = Question(question: "", answers: ["", "", "", ""], answer: 0)
+        let question7 = Question(question: "", answers: ["", "", "", ""], answer: 0)
+        let question8 = Question(question: "", answers: ["", "", "", ""], answer: 0)
+        let question9 = Question(question: "", answers: ["", "", "", ""], answer: 0)
+        let question10 = Question(question: "", answers: ["", "", "", ""], answer: 0)
+        
+        questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
         originalQuestionCount = questions.count
         
         selectQuestion()
