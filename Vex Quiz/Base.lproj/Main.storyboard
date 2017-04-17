@@ -12,10 +12,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Normal-->
+        <!--Geography-->
         <scene sceneID="K02-iR-uHM">
             <objects>
-                <viewController title="Normal" id="BcD-V6-bwv" customClass="Normal" customModule="Vex_Quiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Geography" id="BcD-V6-bwv" customClass="Geography" customModule="Vex_Quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ui9-aA-gh3"/>
                         <viewControllerLayoutGuide type="bottom" id="kTZ-sF-8iL"/>
@@ -115,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="-804.34782608695662" y="-272.28260869565219"/>
         </scene>
-        <!--Diffficulty Chooser-->
+        <!--Subject Selector-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Diffficulty Chooser" id="BYZ-38-t0r" customClass="ViewController" customModule="Vex_Quiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Subject Selector" id="BYZ-38-t0r" customClass="ViewController" customModule="Vex_Quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -127,56 +127,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Vex Quiz!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufB-Tw-kiH">
-                                <rect key="frame" x="104" y="116" width="167" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select your desired difficulty level!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YdG-65-pnR">
-                                <rect key="frame" x="29" y="177" width="316" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Vex Quiz!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufB-Tw-kiH">
+                                <rect key="frame" x="124" y="84" width="167" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdA-p2-tFV">
                                 <rect key="frame" x="16" y="282" width="130" height="130"/>
-                                <color key="backgroundColor" red="0.29411764705882354" green="0.85098039215686272" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="38r-KY-FBp"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Normal"/>
+                                <state key="normal" title="Geography"/>
                                 <connections>
                                     <segue destination="BcD-V6-bwv" kind="show" id="WJa-VN-wlk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgc-Sw-ntJ">
                                 <rect key="frame" x="264" y="282" width="130" height="130"/>
-                                <color key="backgroundColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="9bM-OA-yEH"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Hard"/>
+                                <state key="normal" title="Flags"/>
                                 <connections>
                                     <segue destination="xER-7w-vTN" kind="show" id="6oc-NQ-fgb"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select quiz subject!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YdG-65-pnR">
+                                <rect key="frame" x="105" y="169" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fdA-p2-tFV" firstAttribute="top" secondItem="YdG-65-pnR" secondAttribute="bottom" constant="84" id="3Tk-E8-aQw"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fdA-p2-tFV" secondAttribute="bottom" constant="324" id="6DF-Er-MuI"/>
-                            <constraint firstItem="YdG-65-pnR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="BO6-0G-cpF"/>
-                            <constraint firstItem="YdG-65-pnR" firstAttribute="top" secondItem="ufB-Tw-kiH" secondAttribute="bottom" constant="40" id="J1E-lY-dy9"/>
-                            <constraint firstItem="ufB-Tw-kiH" firstAttribute="centerX" secondItem="YdG-65-pnR" secondAttribute="centerX" id="ML8-XX-tw6"/>
+                            <constraint firstItem="YdG-65-pnR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="169" id="I27-pC-brF"/>
+                            <constraint firstItem="tgc-Sw-ntJ" firstAttribute="top" secondItem="YdG-65-pnR" secondAttribute="bottom" constant="92" id="VDM-XU-ya5"/>
                             <constraint firstItem="tgc-Sw-ntJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="X4F-Ka-mA9"/>
                             <constraint firstItem="fdA-p2-tFV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="apu-ti-EjJ"/>
                             <constraint firstItem="tgc-Sw-ntJ" firstAttribute="baseline" secondItem="fdA-p2-tFV" secondAttribute="firstBaseline" id="cEE-fF-qqh"/>
                             <constraint firstItem="fdA-p2-tFV" firstAttribute="top" secondItem="tgc-Sw-ntJ" secondAttribute="top" id="cqH-IW-BpK"/>
                             <constraint firstItem="fdA-p2-tFV" firstAttribute="baseline" secondItem="tgc-Sw-ntJ" secondAttribute="firstBaseline" id="gUe-gH-Wsq"/>
-                            <constraint firstItem="ufB-Tw-kiH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="96" id="qSy-xn-oIU"/>
+                            <constraint firstItem="YdG-65-pnR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jXm-cz-hsL"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -234,10 +233,10 @@
             </objects>
             <point key="canvasLocation" x="24.637681159420293" y="-853.53260869565224"/>
         </scene>
-        <!--Hard-->
+        <!--Flags-->
         <scene sceneID="rXq-mi-WB7">
             <objects>
-                <viewController title="Hard" id="xER-7w-vTN" sceneMemberID="viewController">
+                <viewController title="Flags" id="xER-7w-vTN" customClass="Flags" customModule="Vex_Quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YuH-7v-XpE"/>
                         <viewControllerLayoutGuide type="bottom" id="eCa-4d-mEF"/>

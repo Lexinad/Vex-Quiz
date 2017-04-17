@@ -16,12 +16,8 @@ struct Question {
     var answer: Int!
 }
 
-struct Answer {
-    var text: String!
-    var flag: UIImage!
-}
 
-class Normal: UIViewController {
+class Geography: UIViewController {
 
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet var buttons: [UIButton]!
