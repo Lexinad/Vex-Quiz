@@ -12,6 +12,16 @@
 		912E6CF01EA3147B0043EA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912E6CEE1EA3147B0043EA28 /* Main.storyboard */; };
 		912E6CF21EA3147B0043EA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912E6CF11EA3147B0043EA28 /* Assets.xcassets */; };
 		912E6CF51EA3147B0043EA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912E6CF31EA3147B0043EA28 /* LaunchScreen.storyboard */; };
+		9174E4061EA574AA0000EED4 /* 394px-Flag_of_Nepal.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E3FC1EA574AA0000EED4 /* 394px-Flag_of_Nepal.svg.png */; };
+		9174E4071EA574AA0000EED4 /* 640px-Flag_of_Australia.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E3FD1EA574AA0000EED4 /* 640px-Flag_of_Australia.svg.png */; };
+		9174E4081EA574AA0000EED4 /* 640px-Flag_of_Bhutan.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E3FE1EA574AA0000EED4 /* 640px-Flag_of_Bhutan.svg.png */; };
+		9174E4091EA574AA0000EED4 /* 640px-Flag_of_Germany.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E3FF1EA574AA0000EED4 /* 640px-Flag_of_Germany.svg.png */; };
+		9174E40A1EA574AA0000EED4 /* 640px-Flag_of_Honduras.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E4001EA574AA0000EED4 /* 640px-Flag_of_Honduras.svg.png */; };
+		9174E40B1EA574AA0000EED4 /* 640px-Flag_of_India.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E4011EA574AA0000EED4 /* 640px-Flag_of_India.svg.png */; };
+		9174E40C1EA574AA0000EED4 /* 640px-Flag_of_Saudi_Arabia.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E4021EA574AA0000EED4 /* 640px-Flag_of_Saudi_Arabia.svg.png */; };
+		9174E40D1EA574AA0000EED4 /* 640px-Flag_of_Seychelles.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E4031EA574AA0000EED4 /* 640px-Flag_of_Seychelles.svg.png */; };
+		9174E40E1EA574AA0000EED4 /* 640px-Flag_of_Sweden.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E4041EA574AA0000EED4 /* 640px-Flag_of_Sweden.svg.png */; };
+		9174E40F1EA574AA0000EED4 /* 640px-Flag_of_the_United_Kingdom.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E4051EA574AA0000EED4 /* 640px-Flag_of_the_United_Kingdom.svg.png */; };
 		91A3FBD51EA43B6900D5A86B /* Geography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A3FBD41EA43B6900D5A86B /* Geography.swift */; };
 		91CA6B161EA48E7300C1F30D /* EndScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA6B151EA48E7300C1F30D /* EndScreen.swift */; };
 		91CA6B191EA49D5B00C1F30D /* Correct_Answer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91CA6B171EA49D5B00C1F30D /* Correct_Answer.wav */; };
@@ -27,6 +37,16 @@
 		912E6CF11EA3147B0043EA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		912E6CF41EA3147B0043EA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		912E6CF61EA3147B0043EA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9174E3FC1EA574AA0000EED4 /* 394px-Flag_of_Nepal.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "394px-Flag_of_Nepal.svg.png"; path = "Assets.xcassets/394px-Flag_of_Nepal.svg.png"; sourceTree = "<group>"; };
+		9174E3FD1EA574AA0000EED4 /* 640px-Flag_of_Australia.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640px-Flag_of_Australia.svg.png"; path = "Assets.xcassets/640px-Flag_of_Australia.svg.png"; sourceTree = "<group>"; };
+		9174E3FE1EA574AA0000EED4 /* 640px-Flag_of_Bhutan.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640px-Flag_of_Bhutan.svg.png"; path = "Assets.xcassets/640px-Flag_of_Bhutan.svg.png"; sourceTree = "<group>"; };
+		9174E3FF1EA574AA0000EED4 /* 640px-Flag_of_Germany.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640px-Flag_of_Germany.svg.png"; path = "Assets.xcassets/640px-Flag_of_Germany.svg.png"; sourceTree = "<group>"; };
+		9174E4001EA574AA0000EED4 /* 640px-Flag_of_Honduras.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640px-Flag_of_Honduras.svg.png"; path = "Assets.xcassets/640px-Flag_of_Honduras.svg.png"; sourceTree = "<group>"; };
+		9174E4011EA574AA0000EED4 /* 640px-Flag_of_India.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640px-Flag_of_India.svg.png"; path = "Assets.xcassets/640px-Flag_of_India.svg.png"; sourceTree = "<group>"; };
+		9174E4021EA574AA0000EED4 /* 640px-Flag_of_Saudi_Arabia.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640px-Flag_of_Saudi_Arabia.svg.png"; path = "Assets.xcassets/640px-Flag_of_Saudi_Arabia.svg.png"; sourceTree = "<group>"; };
+		9174E4031EA574AA0000EED4 /* 640px-Flag_of_Seychelles.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640px-Flag_of_Seychelles.svg.png"; path = "Assets.xcassets/640px-Flag_of_Seychelles.svg.png"; sourceTree = "<group>"; };
+		9174E4041EA574AA0000EED4 /* 640px-Flag_of_Sweden.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640px-Flag_of_Sweden.svg.png"; path = "Assets.xcassets/640px-Flag_of_Sweden.svg.png"; sourceTree = "<group>"; };
+		9174E4051EA574AA0000EED4 /* 640px-Flag_of_the_United_Kingdom.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "640px-Flag_of_the_United_Kingdom.svg.png"; path = "Assets.xcassets/640px-Flag_of_the_United_Kingdom.svg.png"; sourceTree = "<group>"; };
 		91A3FBD41EA43B6900D5A86B /* Geography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geography.swift; sourceTree = "<group>"; };
 		91CA6B151EA48E7300C1F30D /* EndScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndScreen.swift; sourceTree = "<group>"; };
 		91CA6B171EA49D5B00C1F30D /* Correct_Answer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Correct_Answer.wav; sourceTree = "<group>"; };
@@ -75,6 +95,16 @@
 				912E6CF11EA3147B0043EA28 /* Assets.xcassets */,
 				912E6CF31EA3147B0043EA28 /* LaunchScreen.storyboard */,
 				912E6CF61EA3147B0043EA28 /* Info.plist */,
+				9174E3FC1EA574AA0000EED4 /* 394px-Flag_of_Nepal.svg.png */,
+				9174E3FD1EA574AA0000EED4 /* 640px-Flag_of_Australia.svg.png */,
+				9174E3FE1EA574AA0000EED4 /* 640px-Flag_of_Bhutan.svg.png */,
+				9174E3FF1EA574AA0000EED4 /* 640px-Flag_of_Germany.svg.png */,
+				9174E4001EA574AA0000EED4 /* 640px-Flag_of_Honduras.svg.png */,
+				9174E4011EA574AA0000EED4 /* 640px-Flag_of_India.svg.png */,
+				9174E4021EA574AA0000EED4 /* 640px-Flag_of_Saudi_Arabia.svg.png */,
+				9174E4031EA574AA0000EED4 /* 640px-Flag_of_Seychelles.svg.png */,
+				9174E4041EA574AA0000EED4 /* 640px-Flag_of_Sweden.svg.png */,
+				9174E4051EA574AA0000EED4 /* 640px-Flag_of_the_United_Kingdom.svg.png */,
 			);
 			path = "Vex Quiz";
 			sourceTree = "<group>";
@@ -139,11 +169,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9174E4071EA574AA0000EED4 /* 640px-Flag_of_Australia.svg.png in Resources */,
 				912E6CF51EA3147B0043EA28 /* LaunchScreen.storyboard in Resources */,
 				91CA6B1A1EA49D5B00C1F30D /* Incorrect_Answer.wav in Resources */,
+				9174E4081EA574AA0000EED4 /* 640px-Flag_of_Bhutan.svg.png in Resources */,
+				9174E40C1EA574AA0000EED4 /* 640px-Flag_of_Saudi_Arabia.svg.png in Resources */,
+				9174E4061EA574AA0000EED4 /* 394px-Flag_of_Nepal.svg.png in Resources */,
 				912E6CF21EA3147B0043EA28 /* Assets.xcassets in Resources */,
+				9174E40F1EA574AA0000EED4 /* 640px-Flag_of_the_United_Kingdom.svg.png in Resources */,
 				912E6CF01EA3147B0043EA28 /* Main.storyboard in Resources */,
+				9174E40D1EA574AA0000EED4 /* 640px-Flag_of_Seychelles.svg.png in Resources */,
 				91CA6B191EA49D5B00C1F30D /* Correct_Answer.wav in Resources */,
+				9174E4091EA574AA0000EED4 /* 640px-Flag_of_Germany.svg.png in Resources */,
+				9174E40E1EA574AA0000EED4 /* 640px-Flag_of_Sweden.svg.png in Resources */,
+				9174E40B1EA574AA0000EED4 /* 640px-Flag_of_India.svg.png in Resources */,
+				9174E40A1EA574AA0000EED4 /* 640px-Flag_of_Honduras.svg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
