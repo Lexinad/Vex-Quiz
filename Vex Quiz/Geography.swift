@@ -38,12 +38,12 @@ class Geography: UIViewController {
         let question2 = Question(question: "Which of these countries touches the Euphrates River?", answers: ["Morocco", "Iraq", "Algeria", "Sudan"], answer: 1)
         let question3 = Question(question: "Which of these countries borders Slovakia", answers: ["Poland", "Albania", "Croatia", "Bulgaria"], answer: 0)
         let question4 = Question(question: "Which of these countries is NOT a Baltic country?", answers: ["Estonia", "Latvia", "Belarus", "Lithuania"], answer: 2)
-        let question5 = Question(question: "", answers: ["", "", "", ""], answer: 0)
-        let question6 = Question(question: "", answers: ["", "", "", ""], answer: 0)
-        let question7 = Question(question: "", answers: ["", "", "", ""], answer: 0)
-        let question8 = Question(question: "", answers: ["", "", "", ""], answer: 0)
-        let question9 = Question(question: "", answers: ["", "", "", ""], answer: 0)
-        let question10 = Question(question: "", answers: ["", "", "", ""], answer: 0)
+        let question5 = Question(question: "The Ryukyu Islands are a part of which country?", answers: ["China", "Japan", "Korea", "The Philippines"], answer: 1)
+        let question6 = Question(question: "The island of Naxos can be found in what country", answers: ["Greece", "Italy", "Turkey", "Albania"], answer: 0)
+        let question7 = Question(question: "", answers: ["", "", "", ""], answer: 2)
+        let question8 = Question(question: "", answers: ["", "", "", ""], answer: 3)
+        let question9 = Question(question: "", answers: ["", "", "", ""], answer: 3)
+        let question10 = Question(question: "", answers: ["", "", "", ""], answer: 1)
         
         questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
         originalQuestionCount = questions.count
