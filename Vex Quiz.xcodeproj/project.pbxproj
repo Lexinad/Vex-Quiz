@@ -13,6 +13,7 @@
 		912E6CF21EA3147B0043EA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912E6CF11EA3147B0043EA28 /* Assets.xcassets */; };
 		912E6CF51EA3147B0043EA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912E6CF31EA3147B0043EA28 /* LaunchScreen.storyboard */; };
 		91A3FBD51EA43B6900D5A86B /* Normal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A3FBD41EA43B6900D5A86B /* Normal.swift */; };
+		91CA6B161EA48E7300C1F30D /* EndScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA6B151EA48E7300C1F30D /* EndScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		912E6CF41EA3147B0043EA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		912E6CF61EA3147B0043EA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91A3FBD41EA43B6900D5A86B /* Normal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Normal.swift; sourceTree = "<group>"; };
+		91CA6B151EA48E7300C1F30D /* EndScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				912E6CEA1EA3147B0043EA28 /* AppDelegate.swift */,
 				912E6CEC1EA3147B0043EA28 /* ViewController.swift */,
 				912E6CEE1EA3147B0043EA28 /* Main.storyboard */,
+				91CA6B151EA48E7300C1F30D /* EndScreen.swift */,
 				91A3FBD41EA43B6900D5A86B /* Normal.swift */,
 				912E6CF11EA3147B0043EA28 /* Assets.xcassets */,
 				912E6CF31EA3147B0043EA28 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91A3FBD51EA43B6900D5A86B /* Normal.swift in Sources */,
+				91CA6B161EA48E7300C1F30D /* EndScreen.swift in Sources */,
 				912E6CED1EA3147B0043EA28 /* ViewController.swift in Sources */,
 				912E6CEB1EA3147B0043EA28 /* AppDelegate.swift in Sources */,
 			);

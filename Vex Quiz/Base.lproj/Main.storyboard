@@ -108,6 +108,7 @@
                         <outletCollection property="buttons" destination="oF1-fd-7Sc" collectionClass="NSMutableArray" id="NBW-hf-RfU"/>
                         <outletCollection property="buttons" destination="DGv-Lc-ZCb" collectionClass="NSMutableArray" id="afQ-a7-Ilg"/>
                         <outletCollection property="buttons" destination="aLl-U2-jkq" collectionClass="NSMutableArray" id="6Jl-7I-4Z9"/>
+                        <segue destination="uH5-cR-T65" kind="show" identifier="Gameover" id="cLi-WN-HJ7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Azj-NV-Z2o" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -181,6 +182,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--End Screen-->
+        <scene sceneID="mGc-Ym-woU">
+            <objects>
+                <viewController id="uH5-cR-T65" customClass="EndScreen" customModule="Vex_Quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FsY-dK-H5Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dlw-ik-aJy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7av-T6-565">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeT-c5-65Z">
+                                <rect key="frame" x="131" y="462" width="152" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="152" id="7fd-gv-6zW"/>
+                                </constraints>
+                                <state key="normal" title="Play again?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="3dx-Rj-wuu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bu2-iv-7Yi">
+                                <rect key="frame" x="20" y="342" width="374" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bu2-iv-7Yi" firstAttribute="leading" secondItem="7av-T6-565" secondAttribute="leadingMargin" id="1os-Dc-ajx"/>
+                            <constraint firstItem="Bu2-iv-7Yi" firstAttribute="centerX" secondItem="IeT-c5-65Z" secondAttribute="centerX" id="Qdy-Ty-yun"/>
+                            <constraint firstItem="Bu2-iv-7Yi" firstAttribute="centerX" secondItem="7av-T6-565" secondAttribute="centerX" id="elN-RB-ttv"/>
+                            <constraint firstItem="IeT-c5-65Z" firstAttribute="top" secondItem="Bu2-iv-7Yi" secondAttribute="bottom" constant="68" id="nMh-UV-Tra"/>
+                            <constraint firstItem="Bu2-iv-7Yi" firstAttribute="top" secondItem="FsY-dK-H5Z" secondAttribute="bottom" constant="322" id="ncj-1c-l0l"/>
+                            <constraint firstItem="Bu2-iv-7Yi" firstAttribute="centerY" secondItem="7av-T6-565" secondAttribute="centerY" id="oqI-c6-C27"/>
+                            <constraint firstItem="Dlw-ik-aJy" firstAttribute="top" secondItem="IeT-c5-65Z" secondAttribute="bottom" constant="154" id="zrc-08-xhr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="Bu2-iv-7Yi" id="mDU-jn-0O4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q2h-ZN-Fcw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.637681159420293" y="-853.53260869565224"/>
         </scene>
         <!--Hard-->
         <scene sceneID="rXq-mi-WB7">
