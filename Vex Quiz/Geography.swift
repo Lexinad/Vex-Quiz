@@ -40,7 +40,7 @@ class Geography: UIViewController {
         let question4 = Question(question: "Which of these countries is NOT a Baltic country?", answers: ["Estonia", "Latvia", "Belarus", "Lithuania"], answer: 2)
         let question5 = Question(question: "The Ryukyu Islands are a part of which country?", answers: ["China", "Japan", "Korea", "The Philippines"], answer: 1)
         let question6 = Question(question: "The island of Naxos can be found in what country", answers: ["Greece", "Italy", "Turkey", "Albania"], answer: 0)
-        let question7 = Question(question: "", answers: ["", "", "", ""], answer: 2)
+        let question7 = Question(question: "Managua is the capital of what country?", answers: ["El Salvador", "Panama", "Nicaragua", "Belize"], answer: 2)
         let question8 = Question(question: "", answers: ["", "", "", ""], answer: 3)
         let question9 = Question(question: "", answers: ["", "", "", ""], answer: 3)
         let question10 = Question(question: "", answers: ["", "", "", ""], answer: 1)
