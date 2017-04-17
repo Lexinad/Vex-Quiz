@@ -32,7 +32,23 @@ class Geography: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let correctSoundURL = Bundle.main.url(forResource: "Correct_Answer", withExtension: "wav")
+        do {
+            correctSound = try AVAudioPlayer(contentsOf: correctSoundURL!)
+            correctSound.prepareToPlay()
+        } catch {
+            NSLog("Error playing correct sound!")
+        }
 
+        let incorrectSoundURL = Bundle.main.url(forResource: "Incorrect_Answer", withExtension: "wav")
+        do {
+            incorrectSound = try AVAudioPlayer(contentsOf: incorrectSoundURL!)
+            incorrectSound.prepareToPlay()
+        } catch {
+            NSLog("Error playing incorrect sound!")
+        }
+        
         // Do any additional setup after loading the view.
         let question1 = Question(question: "The London Eye is found in what country?", answers: ["France", "Germany", "Switzerland", "England"], answer: 3)
         let question2 = Question(question: "Which of these countries touches the Euphrates River?", answers: ["Morocco", "Iraq", "Algeria", "Sudan"], answer: 1)
@@ -75,9 +91,9 @@ class Geography: UIViewController {
     @IBAction func btn1Click(_ sender: UIButton) {
         if answerNumber == 0 {
             score += 1
-            playCorrectSound()
+            correctSound.play()
         } else {
-            playIncorrectSound()
+            incorrectSound.play()
         }
         selectQuestion()
         
@@ -87,9 +103,9 @@ class Geography: UIViewController {
     @IBAction func btn2Click(_ sender: UIButton) {
         if answerNumber == 1 {
             score += 1
-            playCorrectSound()
+            correctSound.play()
         } else {
-            playIncorrectSound()
+            incorrectSound.play()
         }
         selectQuestion()
         
@@ -99,9 +115,9 @@ class Geography: UIViewController {
     @IBAction func btn3Click(_ sender: UIButton) {
         if answerNumber == 2 {
             score += 1
-            playCorrectSound()
+            correctSound.play()
         } else {
-            playIncorrectSound()
+            incorrectSound.play()
         }
         selectQuestion()
         
@@ -111,9 +127,9 @@ class Geography: UIViewController {
     @IBAction func btn4Click(_ sender: UIButton) {
         if answerNumber == 3 {
             score += 1
-            playCorrectSound()
+            correctSound.play()
         } else {
-            playIncorrectSound()
+            incorrectSound.play()
         }
         selectQuestion()
         
@@ -132,24 +148,6 @@ class Geography: UIViewController {
         }
     }
     
-    func playCorrectSound() {
-        let url = Bundle.main.url(forResource: "Correct_Answer", withExtension: "wav")
-        do {
-            correctSound = try AVAudioPlayer(contentsOf: url!)
-            correctSound.play()
-        } catch {
-            NSLog("Error playing correct sound!")
-        }
-    }
-    
-    func playIncorrectSound() {
-        let url = Bundle.main.url(forResource: "Incorrect_Answer", withExtension: "wav")
-        do {
-            incorrectSound = try AVAudioPlayer(contentsOf: url!)
-            incorrectSound.play()
-        } catch {
-            NSLog("Error playing incorrect sound!")
-        }
-    }
+
 
 }
