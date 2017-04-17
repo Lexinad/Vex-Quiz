@@ -59,7 +59,7 @@ class Geography: UIViewController {
         let question7 = Question(question: "Managua is the capital of what country?", answers: ["El Salvador", "Panama", "Nicaragua", "Belize"], answer: 2)
         let question8 = Question(question: "Where is Kalingrad located?", answers: ["Poland", "Ukraine", "Belarus", "Russia"], answer: 3)
         let question9 = Question(question: "Which of these countries borders Slovenia?", answers: ["Czech Republic", "Croatia", "Austria", "Hungary"], answer: 3)
-        let question10 = Question(question: "", answers: ["", "", "", ""], answer: 1)
+        let question10 = Question(question: "Lisbon is the capital of what country?", answers: ["Spain", "Portugal", "Haiti", "Dominican Republic"], answer: 1)
         
         questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
         originalQuestionCount = questions.count
