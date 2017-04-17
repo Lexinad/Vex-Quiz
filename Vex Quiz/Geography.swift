@@ -57,8 +57,8 @@ class Geography: UIViewController {
         let question5 = Question(question: "The Ryukyu Islands are a part of which country?", answers: ["China", "Japan", "Korea", "The Philippines"], answer: 1)
         let question6 = Question(question: "The island of Naxos can be found in what country?", answers: ["Greece", "Italy", "Turkey", "Albania"], answer: 0)
         let question7 = Question(question: "Managua is the capital of what country?", answers: ["El Salvador", "Panama", "Nicaragua", "Belize"], answer: 2)
-        let question8 = Question(question: "", answers: ["", "", "", ""], answer: 3)
-        let question9 = Question(question: "", answers: ["", "", "", ""], answer: 3)
+        let question8 = Question(question: "Where is Kalingrad located?", answers: ["Poland", "Ukraine", "Belarus", "Russia"], answer: 3)
+        let question9 = Question(question: "Which of these countries borders Slovenia?", answers: ["Czech Republic", "Croatia", "Austria", "Hungary"], answer: 3)
         let question10 = Question(question: "", answers: ["", "", "", ""], answer: 1)
         
         questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
