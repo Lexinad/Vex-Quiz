@@ -52,7 +52,7 @@ class Geography: UIViewController {
         // Do any additional setup after loading the view.
         let question1 = Question(question: "The London Eye is found in what country?", answers: ["France", "Germany", "Switzerland", "England"], answer: 3)
         let question2 = Question(question: "Which of these countries touches the Euphrates?", answers: ["Morocco", "Iraq", "Algeria", "Sudan"], answer: 1)
-        let question3 = Question(question: "Which of these countries borders Slovakia", answers: ["Poland", "Albania", "Croatia", "Bulgaria"], answer: 0)
+        let question3 = Question(question: "Which of these countries borders Slovakia?", answers: ["Poland", "Albania", "Croatia", "Bulgaria"], answer: 0)
         let question4 = Question(question: "Which of these countries is NOT a Baltic country?", answers: ["Estonia", "Latvia", "Belarus", "Lithuania"], answer: 2)
         let question5 = Question(question: "The Ryukyu Islands are a part of which country?", answers: ["China", "Japan", "Korea", "The Philippines"], answer: 1)
         let question6 = Question(question: "The island of Naxos can be found in what country?", answers: ["Greece", "Italy", "Turkey", "Albania"], answer: 0)
