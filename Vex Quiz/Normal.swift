@@ -8,11 +8,17 @@
 //
 
 import UIKit
+import AVFoundation
 
 struct Question {
     var question: String!
     var answers: [String]!
     var answer: Int!
+}
+
+struct Answer {
+    var text: String!
+    var flag: UIImage!
 }
 
 class Normal: UIViewController {
@@ -25,6 +31,8 @@ class Normal: UIViewController {
     var answerNumber = Int()
     var score: Int = 0
     var originalQuestionCount = Int()
+    var correctSound: AVAudioPlayer!
+    var incorrectSound: AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,6 +70,9 @@ class Normal: UIViewController {
     @IBAction func btn1Click(_ sender: UIButton) {
         if answerNumber == 0 {
             score += 1
+            playCorrectSound()
+        } else {
+            playIncorrectSound()
         }
         selectQuestion()
         
@@ -71,6 +82,9 @@ class Normal: UIViewController {
     @IBAction func btn2Click(_ sender: UIButton) {
         if answerNumber == 1 {
             score += 1
+            playCorrectSound()
+        } else {
+            playIncorrectSound()
         }
         selectQuestion()
         
@@ -80,6 +94,9 @@ class Normal: UIViewController {
     @IBAction func btn3Click(_ sender: UIButton) {
         if answerNumber == 2 {
             score += 1
+            playCorrectSound()
+        } else {
+            playIncorrectSound()
         }
         selectQuestion()
         
@@ -89,6 +106,9 @@ class Normal: UIViewController {
     @IBAction func btn4Click(_ sender: UIButton) {
         if answerNumber == 3 {
             score += 1
+            playCorrectSound()
+        } else {
+            playIncorrectSound()
         }
         selectQuestion()
         
@@ -106,6 +126,25 @@ class Normal: UIViewController {
             destination.questionCount = originalQuestionCount
         }
     }
- 
+    
+    func playCorrectSound() {
+        let url = Bundle.main.url(forResource: "Correct_Answer", withExtension: "wav")
+        do {
+            correctSound = try AVAudioPlayer(contentsOf: url!)
+            correctSound.play()
+        } catch {
+            NSLog("Error playing correct sound!")
+        }
+    }
+    
+    func playIncorrectSound() {
+        let url = Bundle.main.url(forResource: "Incorrect_Answer", withExtension: "wav")
+        do {
+            incorrectSound = try AVAudioPlayer(contentsOf: url!)
+            incorrectSound.play()
+        } catch {
+            NSLog("Error playing incorrect sound!")
+        }
+    }
 
 }

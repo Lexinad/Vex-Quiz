@@ -14,6 +14,8 @@
 		912E6CF51EA3147B0043EA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912E6CF31EA3147B0043EA28 /* LaunchScreen.storyboard */; };
 		91A3FBD51EA43B6900D5A86B /* Normal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A3FBD41EA43B6900D5A86B /* Normal.swift */; };
 		91CA6B161EA48E7300C1F30D /* EndScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA6B151EA48E7300C1F30D /* EndScreen.swift */; };
+		91CA6B191EA49D5B00C1F30D /* Correct_Answer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91CA6B171EA49D5B00C1F30D /* Correct_Answer.wav */; };
+		91CA6B1A1EA49D5B00C1F30D /* Incorrect_Answer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91CA6B181EA49D5B00C1F30D /* Incorrect_Answer.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		912E6CF61EA3147B0043EA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91A3FBD41EA43B6900D5A86B /* Normal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Normal.swift; sourceTree = "<group>"; };
 		91CA6B151EA48E7300C1F30D /* EndScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndScreen.swift; sourceTree = "<group>"; };
+		91CA6B171EA49D5B00C1F30D /* Correct_Answer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Correct_Answer.wav; sourceTree = "<group>"; };
+		91CA6B181EA49D5B00C1F30D /* Incorrect_Answer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Incorrect_Answer.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				912E6CEE1EA3147B0043EA28 /* Main.storyboard */,
 				91CA6B151EA48E7300C1F30D /* EndScreen.swift */,
 				91A3FBD41EA43B6900D5A86B /* Normal.swift */,
+				91CA6B171EA49D5B00C1F30D /* Correct_Answer.wav */,
+				91CA6B181EA49D5B00C1F30D /* Incorrect_Answer.wav */,
 				912E6CF11EA3147B0043EA28 /* Assets.xcassets */,
 				912E6CF31EA3147B0043EA28 /* LaunchScreen.storyboard */,
 				912E6CF61EA3147B0043EA28 /* Info.plist */,
@@ -131,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				912E6CF51EA3147B0043EA28 /* LaunchScreen.storyboard in Resources */,
+				91CA6B1A1EA49D5B00C1F30D /* Incorrect_Answer.wav in Resources */,
 				912E6CF21EA3147B0043EA28 /* Assets.xcassets in Resources */,
 				912E6CF01EA3147B0043EA28 /* Main.storyboard in Resources */,
+				91CA6B191EA49D5B00C1F30D /* Correct_Answer.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
